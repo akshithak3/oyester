@@ -8,3 +8,18 @@
 .heading{
 
 }
+a{
+   font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 25px;
+color: #FFFFFF;
+
+}
+.no{
+	opacity: 0;
+}
+.nav-item{
+	padding-right: 20px;
+}
