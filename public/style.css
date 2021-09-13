@@ -138,14 +138,16 @@ color: #FFFFFF;
 	color: #ffffff;
 }
 
-.row{
+.box{
 	padding: 30px;
 	padding-left: 0;
 	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-bottom: 80px;
 }
 
-
+.right-column{
+	padding-right: 0;
+}
 
 .black-button {
 position: absolute;
@@ -185,6 +187,7 @@ padding-top:50px;
 .footer{
 	background-color:  #FF0A0ACC;
 	color: #ffffff;
+	padding-bottom: 30px;
 }
 
 .middle  {
@@ -201,6 +204,10 @@ padding-top:50px;
 .right{
 	
 	text-align: center;
+}
+
+.foot-bottom{
+	padding-top: 20px;
 }
 
 .footer-about{
@@ -229,4 +236,75 @@ line-height: 11px;
 letter-spacing: 0.6em;
 }
 
+
+
+.footer-part1{
+
+background-image: linear-gradient(bottom, #FF0A0ACC 50%, #ffffff 50%);
+background-image: -o-linear-gradient(bottom,  #FF0A0ACC 50%, #ffffff 50%);
+background-image: -moz-linear-gradient(bottom, #FF0A0ACC 50%, #ffffff 50%);
+background-image: -webkit-linear-gradient(bottom,  #FF0A0ACC 50%, #ffffff 50%);
+background-image: -ms-linear-gradient(bottom, #FF0A0ACC 50%, #ffffff 50% );
+}
+
+.contact-btn {
+	text-align: : center;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  -webkit-box-shadow: 1px 1px 8px #0a0a0a;
+  -moz-box-shadow: 1px 1px 8px #0a0a0a;
+  box-shadow: 1px 1px 8px #0a0a0a;
+  font-family: Arial;
+  color: #000000;
+  font-size: 30px;
+  font-family: Taviraj;
+font-style: normal;
+font-weight: 500;
+
+
+letter-spacing: 0.02em;
+
+  background: #fafafa;
+  padding: 30px 300px 30px 300px;
+  text-decoration: none;
+  margin-left:20%;
+}
+
+.contact-btn:hover {
+  background: #fffcff;
+  background-image: -webkit-linear-gradient(top, #fffcff, #d8dadb);
+  background-image: -moz-linear-gradient(top, #fffcff, #d8dadb);
+  background-image: -ms-linear-gradient(top, #fffcff, #d8dadb);
+  background-image: -o-linear-gradient(top, #fffcff, #d8dadb);
+  background-image: linear-gradient(to bottom, #fffcff, #d8dadb);
+  text-decoration: none;
+}
+
+  .book-btn {
+  -webkit-border-radius: 30;
+  -moz-border-radius: 30;
+  border-radius: 30px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #000000;
+  padding: 10px 30px 10px 30px;
+  text-decoration: none;
+  font-family: Montserrat;
+font-style: normal;
+
+
+
+
+}
+
+.book-btn:hover {
+  background: #626466;
+  text-decoration: none;
+}
+
+.book-now{
+	margin-top: 30px;
+}
 
